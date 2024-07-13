@@ -7,11 +7,11 @@ The HisDoc1B dataset comprises 40,281 books, over 3 million document images, and
 |---------|--------|-------------------|--------------|-----------------------|------------------|
 | MTHv1[[1]] | -      | 1,500             | 521,370      | 4,058                | ×                |
 | MTHv2[[2]] | -      | 3,199             | 1,081,678    | 6,733                | ×                |
-| IC19 HDRC[[3]] | -    | <u>11,715</u>       | 2,482,994    | 8,353                | ×                |
-| M5HisDoc[[4]] | -    | 8,000             | <u>4,367,360<u> | <u>16,151</u>           | ×                |
+| IC19 HDRC[[3]] | -    | 11,715       | 2,482,994    | 8,353                | ×                |
+| M5HisDoc[[4]] | -    | 8,000             | 4,367,360 | 16,151           | ×                |
 | CASIA-AHCDB[[5]] | -  | -                 | 2,276,740    | 10,350               | ×                |
-| HisDoc1B (Ours) | **40,281** | **3,163,330** (270×) | **1,082,544,808** (248×) | **30,615** (1.9×) | ✓                |
-<p align="center">Table 1: Comparison of HisDoc1B with existing Chinese historical document datasets. The highest and second highest values within each column are denoted by bold and underline, respectively.</p>
+| HisDoc1B (Ours) | 40,281 | 3,163,330 (270×) | 1,082,544,808 (248×) | 30,615 (1.9×) | ✓                |
+<p align="center">Table 1: Comparison of HisDoc1B with existing Chinese historical document datasets.</p>
 
 
 [1]: https://ieeexplore.ieee.org/document/8364534

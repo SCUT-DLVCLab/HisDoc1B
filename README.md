@@ -22,8 +22,8 @@ The HisDoc1B dataset comprises 40,281 books, over 3 million document images, and
 
 
 # Download
-[OneDrive](https://1drv.ms/u/s!ApQfSeOP7LDTccxiVgzDUPW0uxc?e=mHuXtM)  
-[BaiduYun](https://pan.baidu.com/s/1ippy1QY3GHEjTeeurNCdCQ?pwd=9for)
+OneDrive: https://1drv.ms/u/s!ApQfSeOP7LDTdPghMv281sKYsq0?e=fIuK65   
+BaiduYun: https://pan.baidu.com/s/1CQnfmHwh6hGigyvHNlmPCQ?pwd=aziq  
 
 # Directory Format
 The dataset is organized in the following directory format:
@@ -42,7 +42,18 @@ The dataset is organized in the following directory format:
 
 
 # Inference codes to generate the dataset
-Coming soon.
+* Download the docker image:  
+OneDrive: https://1drv.ms/u/s!ApQfSeOP7LDTc0VErUM9NBjQLls?e=gVTcqw  
+BaiduYun: https://pan.baidu.com/s/1OV_RjZ8pf9QJlCrMDFvztA?pwd=wdlm   
+
+* Initialize the docker container:
+    ```bash
+    docker load -i hisdoc1b-docker.tar
+    docker run -it --gpus all --shm-size="2g" hisdoc1b-image:20240716
+    ```
+
+* The code are in the /root/HisDoc1B_codes/.
+
 
 # Contact
 For any questions about the dataset, please contact the authors by sending an email to [yongxin_shi@foxmail.com](mailto:yongxin_shi@foxmail.com). 

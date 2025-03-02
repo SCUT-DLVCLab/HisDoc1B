@@ -21,9 +21,19 @@ The HisDoc1B dataset comprises 40,281 books, over 3 million document images, and
 [5]: https://ieeexplore.ieee.org/document/8978010
 
 
-# Download
+
+
+
+# Usage & Download
 OneDrive: https://1drv.ms/u/s!ApQfSeOP7LDTdPghMv281sKYsq0?e=fIuK65   
 BaiduYun: https://pan.baidu.com/s/1CQnfmHwh6hGigyvHNlmPCQ?pwd=aziq  
+
+The HisDoc1B dataset can only be used for non-commercial research purposes. Scholars or organizations wishing to use the HisDoc1B dataset should first complete this [Application Form](application-form/Application-Form-for-Using-HisDoc1B.docx) and send it via email to us ([lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com) or [eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)). When submitting the application form to us, please list or attach 1-2 of your publications from the past 6 years to demonstrate that you (or your team) conduct research in the related research fields of Historical Document Analysis, Optical Character Recognition, Document Image Processing, and so on. Currently, this dataset is only freely available to scholars in the above-mentioned fields. **We will send you the decompression password for the dataset after your letter has been received and approved**.
+
+
+# License
+The HisDoc1B dataset should be used and distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
+
 
 # Directory Format
 The dataset is organized in the following directory format:
@@ -41,19 +51,21 @@ The dataset is organized in the following directory format:
 ```
 
 
-# Inference codes to generate the dataset
-* Download the docker image:  
-OneDrive: https://1drv.ms/u/s!ApQfSeOP7LDTc0VErUM9NBjQLls?e=gVTcqw  
-BaiduYun: https://pan.baidu.com/s/1OV_RjZ8pf9QJlCrMDFvztA?pwd=wdlm   
 
-* Initialize the docker container:
-    ```bash
-    docker load -i hisdoc1b-docker.tar
-    docker run -it --gpus all --shm-size="2g" hisdoc1b-image:20240716
-    ```
-
-* The code are in the /root/HisDoc1B_codes/.
-
+# Citation
+Please cite our paper when using the dataset:
+```
+@article{shi2025large,
+  title={A large-scale dataset for Chinese historical document recognition and analysis},
+  author={Shi, Yongxin and Peng, Dezhi and Zhang, Yuyi and Cao, Jiahuan and Jin, Lianwen},
+  journal={Scientific Data},
+  volume={12},
+  number={1},
+  pages={169},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 # Contact
-For any questions about the dataset, please contact the authors by sending an email to [yongxin_shi@foxmail.com](mailto:yongxin_shi@foxmail.com). 
+For any questions about the dataset, please contact the authors by sending an email to Prof. Jin([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). 

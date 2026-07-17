@@ -28,7 +28,23 @@ The HisDoc1B dataset comprises 40,281 books, over 3 million document images, and
 OneDrive: https://1drv.ms/u/s!ApQfSeOP7LDTdPghMv281sKYsq0?e=fIuK65   
 BaiduYun: https://pan.baidu.com/s/1CQnfmHwh6hGigyvHNlmPCQ?pwd=aziq  
 
-The HisDoc1B dataset can only be used for non-commercial research purposes. Scholars or organizations wishing to use the HisDoc1B dataset should first complete this [Application Form](application-form/Application-Form-for-Using-HisDoc1B.docx) and send it via email to us ([lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com) or [eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)). When submitting the application form to us, please list or attach 1-2 of your publications from the past 6 years to demonstrate that you (or your team) conduct research in the related research fields of Historical Document Analysis, Optical Character Recognition, Document Image Processing, and so on. Currently, this dataset is only freely available to scholars in the above-mentioned fields. **We will send you the decompression password for the dataset after your letter has been received and approved**.
+The The HisDoc1B dataset is available for **non-commercial research purposes only**. To request access, please follow these steps:
+
+**Step 1: Download and complete the agreement:**
+
+[Application Form](application-form/Application-Form-for-Using-HisDoc1B.docx)
+
+Have the document signed and stamped by your institution. Please also prepare 1–2 recent publications (within the last 6 years) as evidence that you or your team conduct research in handwriting verification, handwriting analysis and recognition, document image processing, or related fields.
+
+**Step 2: Submit your application online:**
+
+> 🔗 **[SCUT DLVC Lab Dataset Access Portal → Apply for The HisDoc1B](http://121.41.49.212:9000/apply/hisdoc1b)**
+
+Upload a signed document through the portal and fill out the "Recent Publications" block. Your application will be reviewed manually and you will be notified by email once a decision has been made (typically within 1–5 business days).
+
+**Step 3: Download the dataset:**
+
+After approval, you will receive the download link and decompression password via email.
 
 # Important Note
 The original data of the dataset is sourced from public channels such as the Internet, and its copyright shall remain with the original providers. The collated and annotated dataset presented in this case is for **non-commercial use only** and is currently licensed to universities and research institutions. To apply for the use of this dataset, please fill in the corresponding application form in accordance with the requirements specified on the dataset’s official website. The applicant must be a **full-time employee of a university or research institute** and is required to sign the application form. For the convenience of review, it is recommended to affix an official seal (a seal of a secondary-level department is acceptable).
